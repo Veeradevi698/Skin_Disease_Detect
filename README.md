@@ -19,7 +19,7 @@ The app provides predictions, confidence scores, and practical **skin health pre
   - Seborrheic Kertaosis and other benign Tumors
   - Tinea Ringworm Candidiasis and other Fungal infections
   - Warts Molluscum and other Viral Infections
-  - 
+  
 - Displays confidence percentage.
 - Provides **precautions** and **doctor consultation advice**.
 - Clean, professional UI with Streamlit.
