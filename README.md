@@ -1,4 +1,4 @@
-# 🩺 AI Skin Disease Detector
+# 🩺 Smart Skin Disease Detector
 
 An AI-powered web application built with **TensorFlow** and **Streamlit** that detects common skin diseases from uploaded images.  
 The app provides predictions, confidence scores, and practical **skin health precautions**.  
