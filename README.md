@@ -36,4 +36,28 @@ The app provides predictions, confidence scores, and practical **skin health pre
 ---
 
 ## 📂 Project Structure
+skin-disease-detector/
+│
+├── app.py                  # Streamlit frontend (UI + predictions + advice)
+├── skin_disease_model.h5   # Trained TensorFlow/Keras model
+├── requirements.txt        # Python dependencies
+├── README.md               # Documentation
+│
+├── data/                   # Dataset folder (optional, if storing locally)
+│   ├── train/              # Training images (organized by class)
+│   ├── val/                # Validation images
+│   └── test/               # Test images
+│
+├── notebooks/              # Jupyter notebooks for experiments
+│   ├── data_cleaning.ipynb
+│   ├── model_training.ipynb
+│   └── evaluation.ipynb
+│
+├── utils/                  # Helper functions
+│   ├── preprocessing.py    # Image preprocessing utilities
+│   ├── visualization.py    # Plotting training curves
+│   └── maps_integration.py # (Optional) Google Maps API integration
+│
+
+
 
